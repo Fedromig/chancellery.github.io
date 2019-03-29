@@ -19,44 +19,44 @@ form {
 	padding-top: 25px;
 	width: 40%;
 	font-size: 20px;
-  position:absolute;
-  margin-top: 20px;
+        position:absolute;
+        margin-top: 20px;
 }
 .group1{
         position: center;
 	padding-top: 180px;
 	width: 40%;
 	font-size: 17px;
-  position:absolute;
-  margin-top: 10px;
+        position:absolute;
+        margin-top: 10px;
 }
 .group3{
 	padding-top: 25px;
 	width: 100%;
 	font-size: 50px;
-  position:absolute;
-  margin-top: 70px;
-  color:red;
+        position:absolute;
+        margin-top: 70px;
+        color:red;
 }
 .group4{
-  padding: 30px;
-  font-size: 18px;
+        padding: 30px;
+        font-size: 18px;
 }
 .groupScreen1{
-  cursor: pointer;
-  position:absolute;
-  padding-top: 25px;
-  margin-top: 500px;
+        float: left;
+        cursor: pointer;
+        position:absolute;
+        padding-top: 25px;
+        margin-top: 500px;
+        margin-left: -40px;
 }
 .groupScreen2{
-  margin-left: 150px;
-  cursor: pointer;
-  padding-top: 25px;
-  position:absolute;
-  margin-top: 500px;
- }
-label{
-	padding-left: 0px;
+        float: left;
+        margin-left: 50px;
+        cursor: pointer;
+        padding-top: 25px;
+        position:absolute;
+        margin-top: 500px;
 }
 button{
         position:absolute;
@@ -67,10 +67,10 @@ button{
 	background: green;
 	border-radius: 10px;
 	margin-top: 100px;
-  font-weight: bold;
-  font-size: 20px;
-  margin-top: 650px;
-  width: 30%
+        font-weight: bold;
+        font-size: 20px;
+        margin-top: 650px;
+        width: 30%;
 }
 h1{
 	color:black;
@@ -81,17 +81,26 @@ h1{
 	font-size: 20px;
 }
 .container{
-  width: 90%;
-  margin: 0 auto;
-  
-  text-align: center;
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
 }
 .container .cols{
-  float:left;
-  margin: 0 0 1em;
-  padding: 0 1em;
-  
-  text-align: left;
+        float:left;
+        margin: 0 0 1em;
+        padding: 0 1em;
+        text-align: left;
 }
-.container .cols.col-1{width: 50%; height: 1000px; text-align: center;}
-.container .cols.col-2{width: 35%; height: 1000px;}
+.container .cols.col-1{
+        width: 50%; 
+        height: 1000px; 
+        text-align: center;
+}
+.container .cols.col-2{
+        width: 35%; 
+        height: 1000px;
+}
+ul.photos li{
+        list-style:none;
+        border: 1px solid rgba(0,0,0,.2);
+}
